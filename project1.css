@@ -7,8 +7,10 @@ h1 {
     text-align: center;
 }
 body {
-    background-color: bisque;
-}
+    background-image: url('https://plus.unsplash.com/premium_photo-1706800283416-386564888732?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMzB8fHxlbnwwfHx8fHw%3D');
+    background-size: cover; 
+
+
 #submit {
     background-color: #4CAF50; 
     border: none;
@@ -27,3 +29,27 @@ body {
   #submit:hover {
     background-color: #45a049; 
   }
+  #spacePic {
+    max-width: 100%; 
+    height: auto; 
+}
+
+#imageContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to bottom right, #f0f0f0, #d9d9d9); 
+    overflow: hidden; 
+}
+
+#spacePic {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border: 5px solid #fff; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
